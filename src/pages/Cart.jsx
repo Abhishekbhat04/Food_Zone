@@ -10,6 +10,7 @@ import CartItems from "../components/CartItems";
 const Cart = () => {
    const cartItems = useSelector((state) => state.cart.cart);
 
+   // Calculate Total Price
    const totalPrice = cartItems.reduce(
       (total, item) => total + item.qty * item.price,
       0
@@ -45,6 +46,7 @@ const Cart = () => {
                         );
                      })
                   ) : (
+                     // If Your Cart is empty
                      <h1 className="flex justify-center text-3xl font-bold">
                         Your cart is empty!
                      </h1>
@@ -53,6 +55,7 @@ const Cart = () => {
             </div>
 
             <div className="px-4 md:px-8">
+               {/* Total Price */}
                <div className="space-y-1 text-right md:my-2">
                   <p>
                      Total amount:

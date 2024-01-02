@@ -14,7 +14,7 @@ const CartItems = ({ id, img, name, price, rating, qty }) => {
    const dispatch = useDispatch();
 
    return (
-      <div className="">
+      <div>
          <ul
             id={id}
             className="flex flex-col px-4 scale-90 shadow-md lg:pr-6 lg:scale-100 lg:px-6 rounded-2xl">
@@ -43,6 +43,7 @@ const CartItems = ({ id, img, name, price, rating, qty }) => {
                         {rating}
                      </div>
 
+                     {/* Remove from Cart */}
                      <div className="flex justify-between text-sm ">
                         <button
                            onClick={() =>
@@ -56,6 +57,7 @@ const CartItems = ({ id, img, name, price, rating, qty }) => {
                            <span>Remove</span>
                         </button>
 
+                        {/* Decrement item qty  */}
                         <span className="flex items-center gap-2 ">
                            <span className="px-1 py-1 rounded-full shadow-xl cursor-pointer bg-yellow">
                               <FaMinus
@@ -66,6 +68,8 @@ const CartItems = ({ id, img, name, price, rating, qty }) => {
                                  }
                               />
                            </span>
+
+                           {/* Increment item qty  */}
                            <span className="font-semibold ">{qty}</span>
                            <span className="px-1 py-1 rounded-full shadow-xl cursor-pointer bg-yellow">
                               <FaPlus

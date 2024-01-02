@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -7,6 +8,7 @@ const SignIn = () => {
    return (
       <>
          <Navbar />
+
          <section>
             <div className="grid grid-cols-1 lg:grid-cols-2">
                <div className="flex items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-24">
@@ -113,6 +115,7 @@ const SignIn = () => {
                </div>
             </div>
          </section>
+
          <Footer />
       </>
    );
