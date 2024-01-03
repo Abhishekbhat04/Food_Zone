@@ -29,13 +29,13 @@ const Error = () => {
                   <div className="flex items-center mt-6 space-x-3">
                      <button
                         type="button"
-                        className="inline-flex items-center px-3 py-2 text-sm font-semibold text-black border border-black rounded-md shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+                        className="inline-flex items-center px-3 py-2 text-sm font-semibold text-black border border-black rounded-md shadow-sm ">
                         <ArrowLeft size={16} className="mr-2" />
                         Go back
                      </button>
                      <button
                         type="button"
-                        className="px-3 py-2 text-sm font-semibold text-black rounded-md shadow-sm bg-yellow hover:bg-black/80 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+                        className="px-3 py-2 text-sm font-semibold text-black rounded-md shadow-sm bg-yellow hover:bg-black/80 hover:text-white ">
                         Contact us
                      </button>
                   </div>

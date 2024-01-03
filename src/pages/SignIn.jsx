@@ -36,7 +36,7 @@ const SignIn = () => {
                               </label>
                               <div className="mt-2">
                                  <input
-                                    className="flex w-full h-10 px-3 py-2 text-sm bg-transparent border border-gray-300 rounded-md placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+                                    className="flex w-full h-10 px-3 py-2 text-sm bg-transparent border border-gray-300 rounded-md placeholder:text-gray-400 disabled:cursor-not-allowed disabled:opacity-50"
                                     type="email"
                                     placeholder="Email"></input>
                               </div>
@@ -59,7 +59,7 @@ const SignIn = () => {
                               </div>
                               <div className="mt-2">
                                  <input
-                                    className="flex w-full h-10 px-3 py-2 text-sm bg-transparent border border-gray-300 rounded-md placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+                                    className="flex w-full h-10 px-3 py-2 text-sm bg-transparent border border-gray-300 rounded-md placeholder:text-gray-400 disabled:cursor-not-allowed disabled:opacity-50"
                                     type="password"
                                     placeholder="Password"></input>
                               </div>
@@ -77,7 +77,7 @@ const SignIn = () => {
                      <div className="mt-3 space-y-3">
                         <button
                            type="button"
-                           className="relative inline-flex w-full items-center justify-center rounded-md border border-gray-400 bg-white px-3.5 py-2.5 font-semibold text-gray-700 transition-all duration-200 hover:bg-gray-100 hover:text-black focus:bg-gray-100 focus:text-black focus:outline-none">
+                           className="relative inline-flex w-full items-center justify-center rounded-md border border-gray-400 bg-white px-3.5 py-2.5 font-semibold text-gray-700 transition-all duration-200 hover:bg-gray-100 hover:text-black ">
                            <span className="inline-block mr-2">
                               <svg
                                  className="w-6 h-6 text-rose-500"
@@ -91,7 +91,7 @@ const SignIn = () => {
                         </button>
                         <button
                            type="button"
-                           className="relative inline-flex w-full items-center justify-center rounded-md border border-gray-400 bg-white px-3.5 py-2.5 font-semibold text-gray-700 transition-all duration-200 hover:bg-gray-100 hover:text-black focus:bg-gray-100 focus:text-black focus:outline-none">
+                           className="relative inline-flex w-full items-center justify-center rounded-md border border-gray-400 bg-white px-3.5 py-2.5 font-semibold text-gray-700 transition-all duration-200 hover:bg-gray-100">
                            <span className="inline-block mr-2">
                               <svg
                                  className="h-6 w-6 text-[#2563EB]"
