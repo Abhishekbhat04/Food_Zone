@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 * {
-   background:rgba(#ffffff);
+   background:rgba(#f3f3f3);
    font-family: "Poppins", sans-serif;
 }
 

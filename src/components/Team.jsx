@@ -34,7 +34,7 @@ const Team = () => {
                      />
                      <div className="absolute bottom-4 left-4">
                         <h1 className="text-xl font-semibold text-white">
-                           John Doe
+                           Chirag Shetty
                         </h1>
                         <h6 className="text-base text-white">Master Chef</h6>
                      </div>
@@ -55,7 +55,7 @@ const Team = () => {
                      />
                      <div className="absolute bottom-4 left-4">
                         <h1 className="text-xl font-semibold text-white">
-                           Mark Cook
+                           Akshay B Gambhira
                         </h1>
                         <h6 className="text-base text-white">Assistant cock</h6>
                      </div>
@@ -76,7 +76,7 @@ const Team = () => {
                      />
                      <div className="absolute bottom-4 left-4">
                         <h1 className="text-xl font-semibold text-white">
-                           Kitty
+                           Jaiwanthini k
                         </h1>
                         <h6 className="text-base text-white">Cook</h6>
                      </div>

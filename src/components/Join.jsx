@@ -1,32 +1,39 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Import images from the assets folder
+import img1 from "../assets/img1.jpg";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
+import img4 from "../assets/img4.jpg";
+
 const Join = () => {
    return (
-      <div className=" lg:flex lg:w-full lg:h-[40vw] lg:items-center lg:justify-center lg:bg-yellow lg:-my-10">
-         <section className="pt-10 my-10 ">
+      <div className="lg:flex lg:w-full lg:h-[40vw] lg:items-center lg:justify-center lg:bg-yellow lg:-my-10">
+         <section className="pt-10 my-10">
             <div className="mx-auto max-w-7xl">
                <div className="max-w-2xl mx-auto text-center">
                   <div className="flex justify-center -space-x-2 isolate">
+                     {/* Replacing the image src with imported images */}
                      <img
                         className="relative z-30 inline-block rounded-full h-14 w-14 ring-4 ring-white"
-                        src="https://images.pexels.com/photos/1987301/pexels-photo-1987301.jpeg"
-                        alt="Dan_Abromov"
+                        src={img1} // img1 from the assets folder
+                        alt="Image 1"
                      />
                      <img
                         className="relative z-20 inline-block rounded-full h-14 w-14 ring-4 ring-white"
-                        src="https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_170,w_170,f_auto,g_faces,z_0.7,b_white,q_auto:eco,dpr_1/smokhfs2uevnppc2bmwl"
-                        alt="Guillermo_Rauch"
+                        src={img2} // img2 from the assets folder
+                        alt="Image 2"
                      />
                      <img
                         className="relative z-10 inline-block rounded-full h-14 w-14 ring-4 ring-white"
-                        src="https://leerob.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.b1d1472f.jpg&w=256&q=75"
-                        alt="Lee_Robinson"
+                        src={img3} // img3 from the assets folder
+                        alt="Image 3"
                      />
                      <img
                         className="relative z-0 inline-block rounded-full h-14 w-14 ring-4 ring-white"
-                        src="https://nextjs.org/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F35255%2F1665059775-delba.jpg&w=640&q=75"
-                        alt="Delba"
+                        src={img4} // img4 from the assets folder
+                        alt="Image 4"
                      />
                   </div>
 
